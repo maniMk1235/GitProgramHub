@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Calci {
+public class Calciii {
 
 	public static void main(String[] args) {
 		char operator;

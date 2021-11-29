@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class readBiggest3IntInCondition{
+                public static void main(String[] args){
+                      Scanner ab=new Scanner(System.in);
+                         System.out.println("enter a value:");
+                         int x=ab.nextInt();
+                         int y=ab.nextInt();
+                         int z=ab.nextInt();
+               int big = (x>y && x>z)? x:(y>z)?y:z;
+                     System.out.println(" biggest num is: " + big);
+             }
+}
